@@ -1,0 +1,103 @@
+html{
+	box-sizing: border-box;
+}
+*,*::after,*::before{
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+}
+.main{
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+	width: 100vw;
+	height: 100vh;
+	min-width: 1120px;
+}
+.main>p{
+	color: white;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 48px;
+	color: #fff;
+	text-align: center;
+	padding-top: 117px;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+form{
+	width: 880px;
+	height: 480px;
+	background-color: white;
+	margin: auto;
+	margin-top: 74px;
+}
+.coll{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	color: #9FA3A7;
+	padding-top: 87px;
+	letter-spacing: 2.4px;
+}
+.big_text{
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+	color: black;
+	max-width: 90%;
+}
+p{
+	text-transform: none;
+	margin: 13px auto;
+}
+.small_text{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	max-width: 60%;
+	color: #9FA3A7;
+}
+.coll div {
+    margin: 0 auto;
+	max-width: 76%;
+	letter-spacing: initial;
+}
+button{
+	margin-top: 39px;
+	width: 147px;
+	height: 46px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 2.4px;
+	background-color: rgba(1, 1, 1, 0);
+	border: 3px solid #FFC80A;
+	border-radius: 4ex;
+}
